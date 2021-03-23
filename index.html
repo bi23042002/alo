@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<script language="javascript">
+    function greeting() {
+        alert("thấy ngu chưa");
+    }
+</script>
+
+<head>
+    <script language="javascript">
+        confirm("are you love me?");
+        alert("ok");
+        document.write("me too");
+    </script>
+    <script language="javascript">
+        function doloop() {
+            var stringl = '<hr align="center" width=';
+            document.open();
+            for (var size = 5; size <= 100; size += 5)
+                document.writeln(stringl + size + '%">');
+
+            document.close();
+
+        }
+    </script>
+</head>
+
+<body>
+    <form>
+        <input type="button" value="test the loop" onclick="doloop()">
+    </form>
+    <form>
+        <input type="button" value="đừng có ấn" onclick="greeting()">
+    </form>
+</body>
+
+</html>
